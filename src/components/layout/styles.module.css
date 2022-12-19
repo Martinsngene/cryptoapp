@@ -1,0 +1,11 @@
+.container {
+  @apply grid grid-cols-1 lg:grid-cols-12 h-auto lg:h-[100vh];
+}
+
+.sidebar {
+  @apply col-span-2 hidden lg:block;
+}
+
+.gridSection {
+  @apply bg-white col-span-10 h-full;
+}

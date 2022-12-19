@@ -1,0 +1,20 @@
+.container {
+  @apply bg-[#f3f3f3] w-full h-full flex justify-center;
+}
+
+.routeContainer {
+  @apply w-4/5 h-[350px] p-6 flex flex-col justify-between;
+}
+
+/* Styles for Links */
+.link {
+  @apply flex items-center justify-start;
+}
+
+.linkActive {
+  @apply text-[#6154F0];
+}
+
+.linkIcon {
+  @apply text-[2rem] mr-[2rem];
+}

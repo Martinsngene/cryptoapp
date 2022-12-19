@@ -1,0 +1,4 @@
+/* NavBar Container Styles */
+.container {
+  @apply bg-white h-[60px] border-b border-b-[#E4E4E4];
+}
